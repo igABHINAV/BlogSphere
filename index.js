@@ -5,6 +5,7 @@ const { connectDB} = require("./config/database")
 
 const os = require("os");
 const totalCPU = os.cpus().length;
+console.log(totalCPU);
 if(cluster.isPrimary)
 {
     for(let i=0;i<totalCPU ; i++)
