@@ -5,7 +5,7 @@ const { getPostById } = require("../controllers/Post_controller/getpostbyId");
 const { getAllPostsByUser } = require("../controllers/Post_controller/getallpostsbyUser");
 const { getAllPostsbyOtherUsers } = require("../controllers/Post_controller/getAllPostsbyOtherUsers");
 const { ViewPost } = require("../controllers/Post_controller/ViewPost");
-const { likePost } = require("../controllers/Post_controller/LikePost");
+const { likePost } = require("../controllers/Post_controller/likePost");
 const { commentPost } = require("../controllers/Post_controller/CommentPost");
 const router  = express.Router();
 router.route("/allposts").get(getAllPosts);
