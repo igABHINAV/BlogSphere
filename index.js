@@ -1,6 +1,6 @@
 const app = require("./app");
 const cluster = require("node:cluster");
-const { connectDB} = require("./config/database")
+const { connectDB} = require("./config/Database")
 
 
 const os = require("os");
